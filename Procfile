@@ -1,1 +1,1 @@
-web: typings install && npm run build && node src/server/server.js
+web: npm run build:prod && node src/server/server.js
