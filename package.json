@@ -8,7 +8,6 @@
     "start": "node src/server/server.js",
     "build": "webpack --progress",
     "build:prod": "cross-env APP_ENVIRONMENT=production webpack -p --progress",
-    "postinstall": "typings install",
     "serve": "webpack-dev-server --inline --progress",
     "test": "karma start --single-run",
     "test:watch": "karma start"
