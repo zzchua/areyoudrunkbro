@@ -17,6 +17,7 @@ var app = express();
 // console.log(path.join(__dirname, '../../keycloak.js'));
 
 app.use(cors());
+app.use(express.static(path.join(__dirname, '../../public')));
 app.use(express.static(path.join(__dirname, '../../dist')));
 
 
@@ -25,7 +26,7 @@ app.use(express.static(path.join(__dirname, '../../dist')));
 
 app.listen(8082, 'localhost', function() {
     console.log('server started');
-})
+});
 
 
 // nginix on AWS serves on port 8081

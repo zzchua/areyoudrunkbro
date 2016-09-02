@@ -11,7 +11,7 @@ import 'rxjs/add/operator/distinctUntilChanged';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/switchMap';
 import 'rxjs/add/operator/toPromise';
-var Recorder = require('./../../../vendor/recorder.js');
+var Recorder = require('./../../../public/recorder.js');
 var score = require('fuzzy-string-matching');
 
 @Component({
