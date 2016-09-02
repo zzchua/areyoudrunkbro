@@ -1,0 +1,10 @@
+<div id="container">
+    <div id="app-controller">
+        <div id="title-area">
+            <h1>You Drunk Bro?</h1>    
+        </div>
+        <record class="content" (flowController)="setState($event)" *ngIf="stateSet==='record'" (confidenceResult)='setResult($event)'> </record>
+        <success  (flowController)="setState($event)" *ngIf="stateSet==='success'" [results]='results'> </success>
+        <failure  (flowController)="setState($event)" *ngIf="stateSet==='failure'" [results]='results'> </failure>
+    </div>
+</div>
