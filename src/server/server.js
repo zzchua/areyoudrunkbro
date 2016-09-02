@@ -24,7 +24,7 @@ app.use(express.static(path.join(__dirname, '../../dist')));
 
 // var server = https.createServer(credentials, app)
 
-app.listen(8082, 'localhost', function() {
+app.listen(8080, function() {
     console.log('server started');
 });
 

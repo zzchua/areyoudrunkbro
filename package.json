@@ -2,7 +2,7 @@
   "name": "areyoudrunkbro",
   "version": "1.0",
   "scripts": {
-    "start": "node src/server/server.js",
+    "start": "npm run build && node src/server/server.js",
     "build": "webpack --progress",
     "build:prod": "cross-env APP_ENVIRONMENT=production webpack -p --progress",
     "postinstall": "typings install",
