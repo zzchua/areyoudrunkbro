@@ -11,4 +11,4 @@ To run the server and application locally:
 See the app in action
 ---------------------
 
-The app is deployed on heroku: http://areyoudrunkbro.herokuapp.com/
+The app is deployed on heroku: https://areyoudrunkbro.herokuapp.com/
