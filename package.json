@@ -6,12 +6,7 @@
   },
   "scripts": {
     "start": "node src/server/server.js",
-    "build": "webpack --progress",
-    "build:prod": "cross-env APP_ENVIRONMENT=production webpack -p --progress",
-    "postinstall": "typings install",
-    "serve": "webpack-dev-server --inline --progress",
-    "test": "karma start --single-run",
-    "test:watch": "karma start"
+    "build": "webpack --progress"
   },
   "dependencies": {
     "@angular/common": "2.0.0-rc.4",
@@ -31,11 +26,6 @@
   "devDependencies": {
     "cross-env": "1.0.8",
     "html-webpack-plugin": "2.21.0",
-    "jasmine-core": "^2.4.1",
-    "karma": "^1.1.1",
-    "karma-chrome-launcher": "^1.0.1",
-    "karma-jasmine": "^1.0.2",
-    "karma-webpack": "^1.7.0",
     "raw-loader": "0.5.1",
     "ts-loader": "0.8.2",
     "typescript": "1.8.10",
