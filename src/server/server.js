@@ -10,6 +10,6 @@ app.use(express.static(path.join(__dirname, '../../dist')));
 
 
 
-app.listen(app.env.PORT || 8080, function() {
+app.listen(process.env.PORT || 8080, function() {
     console.log('server started');
 });
